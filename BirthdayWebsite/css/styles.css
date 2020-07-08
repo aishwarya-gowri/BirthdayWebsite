@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+@import url('https://fonts.googleapis.com/css?family=Dosis:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+h1,h2,h3,h4,h5,h6{
+  line-height: normal;
+}
+body{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size:15px;
+  overflow-x: hidden;
+  background-image: url("../assets/images/bg.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  /*background-repeat: repeat;
+  background-size: 150px 200px;*/
+}
+
+/* banner */
+
+#banner{
+  overflow:hidden;
+}
+.banner-semi {
+    width: 100%;
+    height: 100%;
+    background: rgba(207, 170, 188,0.30);
+    overflow:hidden; 
+}
+.banner-content{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: #555555;
+  margin: 0% 10%;
+  text-shadow: 0.2px 0.2px #080808;
+}
+
+.banner-heading{
+  font-size: 60px;
+  word-spacing: 8px;
+  font-weight:600;
+  text-align: center;
+}
+@media screen and (max-width: 400px) {
+    .banner-heading {
+        font-size: 45px;
+        word-spacing: 6px;
+        font-weight: 400;
+    }
+}
+
+#wish{
+  background: rgba(161, 112, 119,0.50);
+  width: 100%;
+  bottom: 0;
+  height: 50px;
+}
+@media screen and (max-width: 400px){
+  #wish {
+    height: 25px;
+  }
+}
+
+.wish-link-box{
+  text-align: center;
+  height: 100%;
+  margin: 0;
+}
+
+.wish-link{
+  font-size: 30px;
+  color: #555555;
+  margin: 0;
+}
+
+@media screen and (max-width: 400px) {
+    .wish-link {
+        font-size: 18px;
+    }
+}
+
+#picnwish{}
+
+.card-body{
+  background: rgba(215, 180, 204,0.40);
+}
